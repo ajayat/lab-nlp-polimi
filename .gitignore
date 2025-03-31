@@ -1,0 +1,18 @@
+# Virtual environments
+.venv/
+
+# Python
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# Others
+*.bin
+spacy_model/
+index_3docs/
+terrier_cord19/
