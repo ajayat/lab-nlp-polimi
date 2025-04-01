@@ -1,0 +1,41 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Core ML & Deep Learning
+tensorflow = "*"
+keras = "<3"
+torchvision = "*"
+scikit-learn = "*"
+detectron2 = {git = "https://github.com/facebookresearch/detectron2.git"}
+
+# NLP Libraries
+transformers = "*"
+spacy = "*"
+nltk = "*"
+gensim = "*"
+
+# OCR & Document Processing
+pdfplumber = "*"
+layoutparser = {extras = ["ocr"], version = "*"}
+tabula-py = "*"
+
+# Web Scraping
+bs4 = "*"
+
+# Visualization & Plotting
+plotly = "*"
+
+# Compatibility & Miscellaneous
+protobuf = "==3.20.3"
+python-terrier = "==0.11.0"
+
+[dev-packages]
+# Notebooks
+ipykernel = "*"
+nbformat = "*"
+
+[requires]
+python_version = "3.11"
