@@ -16,3 +16,4 @@ __pycache__/
 spacy_model/
 index_3docs/
 terrier_cord19/
+cool_trainer_name/
